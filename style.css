@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+#resize{
+    width: 100px;
+    padding: 20px;
+    font-size: larger;
+}
+
+.active{
+    background-color: black;
+}
+.box{
+    background-color: yellow;
+
+}
+.menuLateral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 300px;
+    background-color: aliceblue;
+}
+
+.container{
+    align-content: flex-start;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: black;
+    height: 800px;
+    width: 800px;
+}
